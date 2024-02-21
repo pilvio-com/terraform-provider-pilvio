@@ -1,6 +1,6 @@
 # Configuration options
 provider "pilvio" {
-  host     = "api.pilvio.com"
+  host     = "https://api.pilvio.com/v1/"
   apikey   = "my apikey"
   location = "tll01"
 }
