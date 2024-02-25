@@ -15,7 +15,7 @@ Provider to work with (https://app.pilvio.com) cloud services. To use a provider
 ```terraform
 # Configuration options
 provider "pilvio" {
-  host     = "https://api.pilvio.com/v1/"
+  host     = "api.pilvio.com"
   apikey   = "my apikey"
   location = "tll01"
 }
@@ -30,5 +30,5 @@ provider "pilvio" {
 
 ### Optional
 
-- `host` (String) Pilvio platform host. Default host is https://api.pilvio.com/v1/.
+- `host` (String) Pilvio platform host. Default host is api.pilvio.com.
 - `location` (String) Default provider location, used for Pilvio client creation, currently supports either "tll01" or "jhvi"; defaults to "tll01" if not set.
